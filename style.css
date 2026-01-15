@@ -20,6 +20,7 @@
     font-size: 24px;
     border: solid black;
     box-shadow: 3px 3px inset;
+    outline: none;
 }
 
 .buttons {
@@ -44,11 +45,11 @@ button:hover {
 }
 
 button:active {
-    box-shadow: 1px 1px inset;
+    box-shadow: 1px 1px black inset;
     background-color: #ddd;
 }
 
-.clear {
+.clear, .del {
     background-color: #ff4136;
     color: white;
 }
